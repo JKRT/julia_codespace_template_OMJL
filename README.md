@@ -1,8 +1,8 @@
 # Julia Codespace Template
 
-[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/matsui528/julia_codespace_template)
+[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://github.com/JKRT/julia_codespace_template_OMJL)
 
-Template for easy launch of julia in codespace
+Template for easy launch of Julia in codespace
 
 ## How to start
 - Click the above `Open in GitHub Codespaces` budge.
