@@ -34,6 +34,8 @@ end
 Pkg.clone(git@github.com:OpenModelica/OMRuntimeExternalC.jl.git)
 Pkg.develop(string(pwd(), "/" ,"OMRuntimeExternalC.jl"))
 
+shell("bash setup.sh")
+
 @info "precompiling and running tests"
 @time include("run.jl")
 
