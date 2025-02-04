@@ -4,7 +4,7 @@
 	"features": {
 	  "ghcr.io/devcontainers/features/common-utils:2": {}
 	},
-	"postCreateCommand": "julia -e 'using Pkg; Pkg.instantiate()' && bash setup.sh && julia -e 'using Pkg; Pkg.instantiate(); include(setup.jl)",
+	"postCreateCommand": "julia -e 'using Pkg; Pkg.instantiate(); include(setup.jl)'",
 	"customizations": {
 	  "vscode": {
 		"extensions": [
