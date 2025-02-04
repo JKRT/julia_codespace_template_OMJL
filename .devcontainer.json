@@ -1,7 +1,7 @@
 // See https://github.com/julia-vscode/julia-devcontainer/blob/master/Dockerfile for image contents
 {
 	"name": "Julia (Community)",
-	"image": "1.10/bookworm/",
+	"image": "https://hub.docker.com/layers/library/julia/1.10-bookworm/images/sha256-a225d5ce3452efef8a6a3c7b3128752f37432714f470939463dd9bfd85025b02",
 
 	// Configure tool-specific properties.
 	"customizations": {
